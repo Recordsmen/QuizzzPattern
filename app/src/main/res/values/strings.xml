@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">StartScreen</string>
+    <string name="game">GameScreen</string>
+    <string name="end">EndScreen</string>
+
+    <string name="description">На сколько хорошо ты знаешь сериал Уенсдей?</string>
+    <string name="play">Play Again</string>
+
+</resources>
