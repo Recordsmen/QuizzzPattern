@@ -1,24 +1,25 @@
-package com.example.quizzzpattern.ui.theme
+package com.quizzz_Walking_Dead.quizzzpattern.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
 
 private val DarkColorPalette = darkColors(
-    primary = Pink400,
-    primaryVariant = Pink950,
+    primary = Black,
+    primaryVariant = Black,
     onPrimary = Black,
-    secondary = Purple400,
-    secondaryVariant = Purple400,
+    secondary = Black,
+    secondaryVariant = Black,
     onSecondary = Black
 )
 
 private val LightColorPalette = lightColors(
-    primary = Pink600,
-    primaryVariant = Pink950,
-    onPrimary = White,
+    primary = Color.Black,
+    primaryVariant = Color.Black,
+    onPrimary = Color.White,
     secondary = Purple400,
     secondaryVariant = Purple700,
     onSecondary = Black

@@ -1,4 +1,4 @@
-package com.example.quizzzpattern.ui.theme
+package com.quizzz_Walking_Dead.quizzzpattern.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.ui.unit.dp

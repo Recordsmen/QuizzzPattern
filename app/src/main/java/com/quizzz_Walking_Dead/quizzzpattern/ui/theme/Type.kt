@@ -1,5 +1,5 @@
 
-package com.example.quizzzpattern.ui.theme
+package com.quizzz_Walking_Dead.quizzzpattern.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

@@ -1,4 +1,4 @@
-package com.example.quizzzpattern
+package com.quizzz_Walking_Dead.quizzzpattern
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -18,6 +18,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
@@ -26,8 +27,8 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
-import com.example.quizzzpattern.ui.MainViewModel
-import com.example.quizzzpattern.ui.theme.QuizzzPatternTheme
+import com.quizzz_Walking_Dead.quizzzpattern.ui.MainViewModel
+import com.quizzz_Walking_Dead.quizzzpattern.ui.theme.QuizzzPatternTheme
 import androidx.navigation.compose.rememberNavController
 
 
@@ -52,7 +53,7 @@ enum class QuizzzScreen(@StringRes val title: Int) {
 @Composable
 fun QuizzzApp(
     modifier: Modifier = Modifier,
-    viewModel: MainViewModel = MainViewModel(),
+    viewModel: MainViewModel = MainViewModel(LocalContext.current),
     navController: NavHostController = rememberNavController()
 ) {
     // Get current back stack entry
@@ -126,7 +127,7 @@ fun StartScreen(
         Image(
             painter = painterResource(R.drawable.first),
             contentDescription = null,
-            modifier = Modifier.width(1000.dp)
+            modifier = Modifier.size(350.dp)
         )
         Text(textAlign = TextAlign.Center,
             text = stringResource(R.string.description),
@@ -166,9 +167,9 @@ fun GameScreen(
     ) {
         Spacer(modifier = Modifier.height(16.dp))
         Image(
-            painter = painterResource(R.drawable.second),
+            painter = painterResource(R.drawable.first),
             contentDescription = null,
-            modifier = Modifier.width(1000.dp)
+            modifier = Modifier.size(350.dp)
         )
         Text(
             textAlign = TextAlign.Center ,
@@ -223,7 +224,7 @@ fun EndScreen(
     ) {
         Spacer(modifier = Modifier.height(16.dp))
         Image(
-            painter = painterResource(R.drawable.orig),
+            painter = painterResource(R.drawable.second),
             contentDescription = null,
             modifier = Modifier.width(1000.dp)
         )

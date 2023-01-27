@@ -1,9 +1,65 @@
 <resources>
-    <string name="app_name">StartScreen</string>
+    <string name="app_name">Quizzz_WalkingDead_en</string>
     <string name="game">GameScreen</string>
     <string name="end">EndScreen</string>
 
-    <string name="description">На сколько хорошо ты знаешь сериал Уенсдей?</string>
+    <string name="description">Test Your knowledge about The Walking Dead</string>
     <string name="play">Play Again</string>
+    <string name="question_1">Who is the main protagonist in "The Walking Dead"?</string>
+    <string name="question_1_1">Carl Grimes</string>
+    <string name="question_1_2">Negan</string>
+    <string name="question_1_3">Daryl Dixon</string>
+    <string name="question_1_correct">Rick Grimes</string>
+    <string name="question_2">What is the name of the group that Rick Grimes joins in the series?</string>
+    <string name="question_2_1">The Hilltop</string>
+    <string name="question_2_2">The Survivors</string>
+    <string name="question_2_3">The Alexandrians</string>
+    <string name="question_2_correct">The Survivors</string>
+    <string name="question_3">What is the name of the virus that causes the zombie in the series?</string>
+    <string name="question_3_1">The Plague</string>
+    <string name="question_3_2">The Flu</string>
+    <string name="question_3_3">The Zombie Virus</string>
+    <string name="question_3_correct">The Walker Virus</string>
+    <string name="question_4">Who plays the role of Rick Grimes in the series?</string>
+    <string name="question_4_1">Michael Rooker</string>
+    <string name="question_4_2">Norman Reedus</string>
+    <string name="question_4_3">Steven Yeun</string>
+    <string name="question_4_correct">Andrew Lincoln</string>
+    <string name="question_5">What is the name of Negan\'s group in the series?</string>
+    <string name="question_5_1">The Terminus</string>
+    <string name="question_5_2">The Governor\'s Group</string>
+    <string name="question_5_3">The Whisperers</string>
+    <string name="question_5_correct">The Saviors</string>
+    <string name="question_6">Who is the leader of the Hilltop in the series?</string>
+    <string name="question_6_1">Rick Grimes</string>
+    <string name="question_6_2">Maggie Rhee</string>
+    <string name="question_6_3">Jesus</string>
+    <string name="question_6_correct">Gregory</string>
+    <string name="question_7">What is the name of the series creator and writer?</string>
+    <string name="question_7_1">Frank Darabont</string>
+    <string name="question_7_2">Angela Kang</string>
+    <string name="question_7_3">Scott Gimple</string>
+    <string name="question_7_correct">Robert Kirkman</string>
+    <string name="question_8">What is the name of the location where the survivors first find safety in the series?</string>
+    <string name="question_8_1">The prison</string>
+    <string name="question_8_2">The Sanctuary</string>
+    <string name="question_8_3">The Hilltop</string>
+    <string name="question_8_correct">The Alexandria Safe-Zone</string>
+    <string name="question_9">What is the name of the group that Rick and his group first encounter after leaving Atlanta?</string>
+    <string name="question_9_1">The Saviors</string>
+    <string name="question_9_2">The Governor\'s Group</string>
+    <string name="question_9_3">The Hunters</string>
+    <string name="question_9_correct">The Vatos</string>
+    <string name="question_10">What is the name of the character who becomes the leader of the Alexandrians after Rick\'s departure?</string>
+    <string name="question_10_1">Michonne</string>
+    <string name="question_10_2">Daryl Dixon</string>
+    <string name="question_10_3">Maggie Rhee</string>
+    <string name="question_10_correct">Gabriel Stokes</string>
+
+
+
+
+
+
 
 </resources>

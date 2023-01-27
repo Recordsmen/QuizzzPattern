@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.quizzzpattern'
+    namespace 'com.quizzz_Walking_Dead.quizzzpattern'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.quizzzpattern"
+        applicationId "com.quizzz_Walking_Dead.quizzzpattern"
         minSdk 25
         targetSdk 33
         versionCode 1

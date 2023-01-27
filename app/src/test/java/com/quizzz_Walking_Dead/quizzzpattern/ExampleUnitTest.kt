@@ -1,4 +1,4 @@
-package com.example.quizzzpattern
+package com.quizzz_Walking_Dead.quizzzpattern
 
 import org.junit.Test
 
